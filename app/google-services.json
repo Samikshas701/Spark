@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "872188870748",
+    "project_id": "parking-353807",
+    "storage_bucket": "parking-353807.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872188870748:android:77b7e3695fdf449c256699",
+        "android_client_info": {
+          "package_name": "com.dominicsilveira.parkingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872188870748-13l6ltgcp2e99hgqh46n2pn818mcev5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1mHAzfmBL9Ti4jbEBM-8xI2ljxYmMATM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872188870748-13l6ltgcp2e99hgqh46n2pn818mcev5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
