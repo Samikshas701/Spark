@@ -45,7 +45,7 @@
                 android:id="@+id/nameText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="delta24.dms"
+                android:text="Profile Page"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/grey_80"
                 android:textStyle="bold" />

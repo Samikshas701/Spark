@@ -4,8 +4,42 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1045" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/activity_about_me.xml" value="0.33" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/activity_add_position.xml" value="0.25" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/activity_area_history.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/activity_book_parking_area.xml" value="0.17192982456140352" />
         <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/activity_booking_details.xml" value="0.1" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/activity_forgot_password.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/activity_g_p_s_map.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/activity_login.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/activity_main_normal.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/activity_main_owner.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/activity_near_by_area.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/activity_personal_details.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/activity_recover_account.xml" value="0.17192982456140352" />
         <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/activity_reset_password.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/activity_stepper_wizard.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/activity_upi_details.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/activity_user_history.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/activity_verified.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/fragment_add.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/fragment_dashboard_normal.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/fragment_dashboard_owner.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/fragment_scan.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/include_add_plate_popup_layout.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/include_card_view_search_bar.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/include_close_location_row_layout.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/include_history_row_layout.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/include_number_plate_row_layout.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/include_place_dropdown_info.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/include_register_login_divider.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/include_slot_individual_list_view.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/include_stepper_wizard_color.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/include_verify_tick.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/parking_normal_user_widget.xml" value="0.17192982456140352" />
+        <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/layout/parking_owner_user_widget.xml" value="0.33" />
         <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/menu/nearby_menu.xml" value="0.17192982456140352" />
         <entry key="..\:/Smart-Parking-Android-App-master/app/src/main/res/menu/normal_bottom_nav_menu.xml" value="0.17192982456140352" />
       </map>

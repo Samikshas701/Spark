@@ -52,11 +52,6 @@
                             android:layout_width="@dimen/spacing_large"
                             android:layout_height="wrap_content" />
 
-                        <ImageView
-                            android:layout_width="@dimen/spacing_xxlarge"
-                            android:layout_height="@dimen/spacing_xxlarge"
-                            android:src="@drawable/logo_no_name" />
-
                         <View
                             android:layout_width="@dimen/spacing_large"
                             android:layout_height="wrap_content" />
@@ -76,7 +71,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="\u0040BE-Group-29 (2020-2021)"
+                                android:text="BE-Batch 2022"
                                 android:textAppearance="@style/TextAppearance.AppCompat.Caption"
                                 android:textColor="@color/grey_40" />
 
@@ -185,32 +180,14 @@
                             android:gravity="center"
                             android:orientation="vertical">
 
-                            <com.mikhaellopez.circularimageview.CircularImageView
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:src="@drawable/dominic"
-                                app:civ_border="true"
-                                app:civ_border_color="@color/grey_10"
-                                app:civ_border_width="2dp"
-                                app:civ_shadow="true"
-                                app:civ_shadow_radius="0" />
-
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="@dimen/spacing_medium"
-                                android:text="Dominic Silveira"
+                                android:text="Archana Bai"
                                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
                                 android:textColor="@color/grey_90"
                                 app:fontFamily="sans-serif-medium" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Senior Developer"
-                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
-                                android:textColor="@color/grey_60"
-                                app:fontFamily="sans-serif-light" />
 
                         </LinearLayout>
 
@@ -222,32 +199,14 @@
                             android:gravity="center"
                             android:orientation="vertical">
 
-                            <com.mikhaellopez.circularimageview.CircularImageView
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:src="@drawable/joel"
-                                app:civ_border="true"
-                                app:civ_border_color="@color/grey_10"
-                                app:civ_border_width="2dp"
-                                app:civ_shadow="true"
-                                app:civ_shadow_radius="0" />
-
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="@dimen/spacing_medium"
-                                android:text="Joel Monis"
+                                android:text="Pushpa Gond"
                                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
                                 android:textColor="@color/grey_90"
                                 app:fontFamily="sans-serif-medium" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Associate Developer"
-                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
-                                android:textColor="@color/grey_60"
-                                app:fontFamily="sans-serif-light" />
 
                         </LinearLayout>
 
@@ -259,35 +218,28 @@
                             android:gravity="center"
                             android:orientation="vertical">
 
-                            <com.mikhaellopez.circularimageview.CircularImageView
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:src="@drawable/lenin"
-                                app:civ_border="true"
-                                app:civ_border_color="@color/grey_10"
-                                app:civ_border_width="2dp"
-                                app:civ_shadow="true"
-                                app:civ_shadow_radius="0" />
-
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="@dimen/spacing_medium"
-                                android:text="Lenin Bardeskar"
+                                android:text="Samiksha Sharma"
                                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
                                 android:textColor="@color/grey_90"
                                 app:fontFamily="sans-serif-medium" />
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Documentation"
-                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
-                                android:textColor="@color/grey_60"
-                                app:fontFamily="sans-serif-light" />
 
                         </LinearLayout>
                     </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:text="Yug Vishal"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                        android:textColor="@color/grey_90"
+                        app:fontFamily="sans-serif-medium" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -319,7 +271,7 @@
                         android:layout_marginLeft="@dimen/spacing_mlarge"
                         android:layout_marginRight="@dimen/spacing_mlarge"
                         android:layout_marginTop="@dimen/spacing_middle"
-                        android:text="Company"
+                        android:text="College"
                         android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                         android:textColor="@color/grey_90"
                         app:fontFamily="sans-serif-medium" />
@@ -358,17 +310,10 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="BE-Group-29 (2020-2021)"
+                                android:text="Information Technology Branch"
                                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                                 android:textColor="@color/grey_80"
                                 app:fontFamily="sans-serif-medium" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="St. Francis Institute of Technology"
-                                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-                                android:textColor="@color/grey_40" />
 
                         </LinearLayout>
 
@@ -404,7 +349,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Sardar Vallabhbhai Patel Rd,\nMount Poinsur, Borivali West, \nMumbai-400103, \nMaharashtra, India"
+                            android:text="Government Engineering College Koni, Bilaspur Chhattisgarh, India"
                             android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                             android:textColor="@color/grey_80" />
 
