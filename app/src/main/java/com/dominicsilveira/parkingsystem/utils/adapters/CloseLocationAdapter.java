@@ -94,7 +94,7 @@ public class CloseLocationAdapter extends RecyclerView.Adapter<CloseLocationAdap
     @Override
     public void onBindViewHolder(final MyViewHolder holder, int position) {
         auth = FirebaseAuth.getInstance();
-        db = FirebaseDatabase.getInstance();
+        db = FirebaseDatabase.getInstance("https://parking-353807-default-rtdb.asia-southeast1.firebasedatabase.app");
         ClosestDistance closestDistance=closestDistances.get(position);
         final String id = (String) closestDistance.key;
         final ParkingArea parkingArea = (ParkingArea) closestDistance.parkingArea;

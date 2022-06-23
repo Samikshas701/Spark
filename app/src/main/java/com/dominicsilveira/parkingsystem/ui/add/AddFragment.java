@@ -131,7 +131,7 @@ public class AddFragment extends Fragment implements NumberPlatePopUp.NumberPlat
 
     private void initComponents(View root) {
         auth = FirebaseAuth.getInstance();
-        db = FirebaseDatabase.getInstance();
+        db = FirebaseDatabase.getInstance("https://parking-353807-default-rtdb.asia-southeast1.firebasedatabase.app");
 
         scanBtn=root.findViewById(R.id.scanBtn);
         placeText = root.findViewById(R.id.placeText);

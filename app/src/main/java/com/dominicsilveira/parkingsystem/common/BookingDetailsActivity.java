@@ -118,7 +118,7 @@ public class BookingDetailsActivity extends AppCompatActivity implements View.On
 
     private void initComponents() {
         auth = FirebaseAuth.getInstance();
-        db = FirebaseDatabase.getInstance();
+        db = FirebaseDatabase.getInstance("https://parking-353807-default-rtdb.asia-southeast1.firebasedatabase.app");
 
         Bundle bundle = getIntent().getExtras();
         UUID=bundle.getString("UUID");

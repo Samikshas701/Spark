@@ -70,7 +70,7 @@ public class RegisterActivity extends AppCompatActivity {
         email.setSelection(email.getText().length());
 
         auth=FirebaseAuth.getInstance();
-        db=FirebaseDatabase.getInstance();
+        db=FirebaseDatabase.getInstance("https://parking-353807-default-rtdb.asia-southeast1.firebasedatabase.app");
     }
 
 
@@ -195,7 +195,7 @@ public class RegisterActivity extends AppCompatActivity {
                                 Log.d(String.valueOf(RegisterActivity.this.getClass()), "onComplete: malformed_email");
                             } catch (FirebaseAuthUserCollisionException existEmail) {
                                 Toast.makeText(RegisterActivity.this, "Email already exists!", Toast.LENGTH_SHORT).show();
-                                Log.d(String.valueOf(RegisterActivity.this.getClass()), "onComplete: exist_email");
+                                Log.d(String.valueOf(RegisterActivity.this.getClass()), "onComplete: Pexist_email");
                             } catch (Exception e) {
                                 Log.d(String.valueOf(RegisterActivity.this.getClass()), "onComplete: " + e.getMessage());
                                 e.printStackTrace();

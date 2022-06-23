@@ -109,7 +109,7 @@ public class GPSMapActivity extends AppCompatActivity implements OnMapReadyCallb
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         auth=FirebaseAuth.getInstance();
-        db=FirebaseDatabase.getInstance();
+        db=FirebaseDatabase.getInstance("https://parking-353807-default-rtdb.asia-southeast1.firebasedatabase.app");
 
         Intent intent=getIntent();
         nameIntent=intent.getStringExtra("LOCATION_NAME");

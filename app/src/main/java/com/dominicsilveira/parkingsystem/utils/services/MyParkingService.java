@@ -57,7 +57,7 @@ public class MyParkingService extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.i(String.valueOf(this.getClass()),"Service onStartCommand");
         auth=FirebaseAuth.getInstance();
-        db=FirebaseDatabase.getInstance();
+        db=FirebaseDatabase.getInstance("https://parking-353807-default-rtdb.asia-southeast1.firebasedatabase.app");
         foundArea=false;
 
         if(auth.getCurrentUser()!=null){

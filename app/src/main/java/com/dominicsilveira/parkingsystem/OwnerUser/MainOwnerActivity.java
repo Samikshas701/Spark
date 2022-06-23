@@ -69,7 +69,7 @@ public class MainOwnerActivity extends AppCompatActivity {
     private void initComponents() {
         globalClass=(AppConstants)getApplicationContext();
 
-        db=FirebaseDatabase.getInstance();
+        db=FirebaseDatabase.getInstance("https://parking-353807-default-rtdb.asia-southeast1.firebasedatabase.app");
         auth=FirebaseAuth.getInstance();
     }
 

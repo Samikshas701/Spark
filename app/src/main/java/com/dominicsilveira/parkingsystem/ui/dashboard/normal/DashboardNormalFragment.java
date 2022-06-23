@@ -105,7 +105,7 @@ public class DashboardNormalFragment extends Fragment implements OnMapReadyCallb
 
     private void initComponents(View root) {
         auth = FirebaseAuth.getInstance();
-        db = FirebaseDatabase.getInstance();
+        db = FirebaseDatabase.getInstance("https://parking-353807-default-rtdb.asia-southeast1.firebasedatabase.app");
 
         openMapsBtn = root.findViewById(R.id.openMapsBtn);
         myBookingsBtn = root.findViewById(R.id.myBookingsBtn);

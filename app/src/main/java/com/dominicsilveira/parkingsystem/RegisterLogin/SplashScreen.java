@@ -99,7 +99,7 @@ public class SplashScreen extends AppCompatActivity {
                 finish();
             }else{
                 final AppConstants globalClass=(AppConstants)getApplicationContext();
-                FirebaseDatabase.getInstance().getReference().child("Users").child(auth.getCurrentUser().getUid()).addValueEventListener(new ValueEventListener() {
+                FirebaseDatabase.getInstance("https://parking-353807-default-rtdb.asia-southeast1.firebasedatabase.app").getReference().child("Users").child(auth.getCurrentUser().getUid()).addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         User userObj=snapshot.getValue(User.class);

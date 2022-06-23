@@ -68,7 +68,7 @@ public class BookingHistoryAdapter extends RecyclerView.Adapter<BookingHistoryAd
     @Override
     public void onBindViewHolder(final BookingHistoryAdapter.MyViewHolder holder, int position) {
         auth = FirebaseAuth.getInstance();
-        db = FirebaseDatabase.getInstance();
+        db = FirebaseDatabase.getInstance("https://parking-353807-default-rtdb.asia-southeast1.firebasedatabase.app");
         BookedSlotKey bookedSlotKey=bookedSlotKeyList.get(position);
 //        final String id = (String) closestDistance.key;
 //        final ParkingArea parkingArea = (ParkingArea) closestDistance.parkingArea;

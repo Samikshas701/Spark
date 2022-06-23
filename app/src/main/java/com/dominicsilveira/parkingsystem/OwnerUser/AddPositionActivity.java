@@ -90,7 +90,7 @@ public class AddPositionActivity extends AppCompatActivity implements OnMapReady
         client= LocationServices.getFusedLocationProviderClient(AddPositionActivity.this);
 
         auth= FirebaseAuth.getInstance();
-        db= FirebaseDatabase.getInstance();
+        db= FirebaseDatabase.getInstance("https://parking-353807-default-rtdb.asia-southeast1.firebasedatabase.app");
 
         areaNameText=findViewById(R.id.areaNameText);
         upiIdText=findViewById(R.id.upiIdText);

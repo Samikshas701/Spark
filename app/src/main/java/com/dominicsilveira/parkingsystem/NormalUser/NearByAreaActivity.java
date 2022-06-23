@@ -96,7 +96,7 @@ public class NearByAreaActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         auth = FirebaseAuth.getInstance();
-        db = FirebaseDatabase.getInstance();
+        db = FirebaseDatabase.getInstance("https://parking-353807-default-rtdb.asia-southeast1.firebasedatabase.app");
 
         empty_view=findViewById(R.id.empty_view);
         recyclerView = (RecyclerView) findViewById(R.id.closest_location_recycler_view);

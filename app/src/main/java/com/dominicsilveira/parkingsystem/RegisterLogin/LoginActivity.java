@@ -68,7 +68,7 @@ public class LoginActivity extends AppCompatActivity {
         email.setSelection(email.getText().length());
 
         auth=FirebaseAuth.getInstance();
-        db=FirebaseDatabase.getInstance();
+        db=FirebaseDatabase.getInstance("https://parking-353807-default-rtdb.asia-southeast1.firebasedatabase.app");
     }
 
     private void attachListeners() {

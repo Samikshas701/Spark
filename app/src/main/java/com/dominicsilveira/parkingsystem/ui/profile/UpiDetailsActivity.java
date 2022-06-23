@@ -77,7 +77,7 @@ public class UpiDetailsActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         auth= FirebaseAuth.getInstance();
-        db= FirebaseDatabase.getInstance();
+        db= FirebaseDatabase.getInstance("https://parking-353807-default-rtdb.asia-southeast1.firebasedatabase.app");
 
         globalClass=(AppConstants)getApplicationContext();
         userID=auth.getCurrentUser().getUid();

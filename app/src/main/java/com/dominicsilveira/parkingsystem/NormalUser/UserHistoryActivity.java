@@ -72,7 +72,7 @@ public class UserHistoryActivity extends AppCompatActivity {
         globalClass=(AppConstants)getApplicationContext();
 
         auth = FirebaseAuth.getInstance();
-        db = FirebaseDatabase.getInstance();
+        db = FirebaseDatabase.getInstance("https://parking-353807-default-rtdb.asia-southeast1.firebasedatabase.app");
 
         getSupportActionBar().setTitle("Booking History");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

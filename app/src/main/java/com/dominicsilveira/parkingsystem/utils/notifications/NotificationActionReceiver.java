@@ -61,7 +61,7 @@ public class NotificationActionReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         auth=FirebaseAuth.getInstance();
-        db=FirebaseDatabase.getInstance();
+        db=FirebaseDatabase.getInstance("https://parking-353807-default-rtdb.asia-southeast1.firebasedatabase.app");
         //Toast.makeText(context,"recieved",Toast.LENGTH_SHORT).show();
         String action=intent.getStringExtra("action");
         if(action.equals("MarkAsReadCheckout")){

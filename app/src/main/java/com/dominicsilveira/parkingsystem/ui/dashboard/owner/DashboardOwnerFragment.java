@@ -72,7 +72,7 @@ public class DashboardOwnerFragment extends Fragment {
 
     private void initComponents(View root,LayoutInflater inflater) {
         auth = FirebaseAuth.getInstance();
-        db = FirebaseDatabase.getInstance();
+        db = FirebaseDatabase.getInstance("https://parking-353807-default-rtdb.asia-southeast1.firebasedatabase.app");
 
         expandCard = root.findViewById(R.id.expandCard);
         availableText = expandCard.findViewById(R.id.availableText);

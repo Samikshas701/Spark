@@ -45,7 +45,7 @@ public class MainNormalActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main_normal);
 
         auth = FirebaseAuth.getInstance();
-        db=FirebaseDatabase.getInstance();
+        db=FirebaseDatabase.getInstance("https://parking-353807-default-rtdb.asia-southeast1.firebasedatabase.app");
         Log.d(String.valueOf(MainNormalActivity.this.getClass()),"isAuthenticatedCheck: "+String.valueOf(auth.getCurrentUser()));
 
         if(!isMyServiceRunning(MyParkingService.class))
